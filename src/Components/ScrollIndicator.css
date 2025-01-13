@@ -1,0 +1,35 @@
+.scrollIndicMain{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0px;
+    gap: 10px;
+}
+.data-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    width: 100%;
+}
+.data-container > div{
+    padding: 8px 0px;
+}
+.scrollIndicMain{
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    background-color: yellow;
+    top: 0px;
+    position: fixed;
+}
+.bottomScroll{
+    position: fixed;
+    left: 0%;
+    top: 10%;
+    height: 10px;
+    background-color: red;
+}

@@ -1,0 +1,89 @@
+.wrapper{
+  height: auto;
+  margin: 0% auto;
+  margin-top: 100px;
+  color: #fff;
+  padding: 40px 30px;
+  border-radius: 40px;
+  background-color: #222;
+  width: 350px;
+}
+
+.wrapperHdg{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0px;
+  margin-bottom: 20px;
+}
+
+.wrapperHdg>div>button{
+  padding: 10px;
+  background-color: blue;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+.wrapperHdg>div>button:active{
+  transform: scale(0.9);
+}
+
+.wrapperHdg:nth-child(1){
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+  text-transform: uppercase;
+}
+
+.gridSingle{
+  display: grid;
+  gap: 10px;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr;
+}
+
+.gridRow{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.gridRow>div:nth-child(1){
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  padding-bottom: 10px;
+  width: 100%;
+  justify-content: space-between;
+}
+.gridRow>div:nth-child(2){
+  margin: 10px 0px 5px 0px;
+}
+
+.multipleGrid{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  gap: 10px;
+}
+.cardMultiple{
+  height: auto;
+  width: 100%;
+}
+.cardMultiple>div:nth-child(1){
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 0px;
+}

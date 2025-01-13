@@ -1,0 +1,52 @@
+.gridBox{
+    width: 300px;
+    height: 300px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3,1fr);
+}
+.box{
+    width: auto;
+    height: auto;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #2222;
+}
+.box:hover{
+    background-color: rgba(251, 71, 71, 0.259);
+}
+.mainBox{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+h1{
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.resetBtn{
+    padding: 10px 20px;
+    background-color: red;
+    margin-top: 20px;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 20px;
+    font-family: "Poppins", sans-serif;
+}
+.resetBtn:hover{
+    transform: scale(0.9);
+    transition: 0.25s all ease;
+}

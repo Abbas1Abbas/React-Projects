@@ -1,0 +1,10 @@
+.qrCodeContainer{
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+}
